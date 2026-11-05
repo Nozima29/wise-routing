@@ -16,6 +16,7 @@ import type {
   RiskLevel,
   HeatmapPoint,
 } from "../types/trip";
+import L from "leaflet";
 
 interface Props {
   routes: Route[];

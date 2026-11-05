@@ -1,5 +1,5 @@
 
-import { Clock3, RefreshCw } from "lucide-react";
+import { RefreshCw } from "lucide-react";
 
 interface Props {
   value: number;

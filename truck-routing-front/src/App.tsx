@@ -8,7 +8,6 @@ import HeatmapControls from "./components/HeatmapControls";
 import { createTrip, planTrip, getTripHeatmap } from "./api/trips";
 import type { Trip, TripRequest, Route, HeatmapResponse } from "./types/trip";
 import { useEffect, useState } from "react";
-import L from "leaflet";
 
 
 function App() {
